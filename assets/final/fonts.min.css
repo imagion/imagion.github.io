@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "RobotoRegular";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype")
+}
+@font-face {
+	font-family: "ExoRegular";
+	src: url("../../fonts/Exo-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: "ExoRegularItalic";
+	src: url("../../fonts/Exo-Italic.otf") format("opentype");
+}
+@font-face {
+	font-family: "ExoSemiBold";
+	src: url("../../fonts/Exo-SemiBold.otf") format("opentype");
+}
