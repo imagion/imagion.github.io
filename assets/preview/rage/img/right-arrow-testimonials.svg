@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../assets/final/main.min.css"?>
+<svg width="45px" height="45px"
+	viewBox="0 0 54 54"
+	xmlns="http://www.w3.org/2000/svg"
+	version="1.1">
+	<style type="text/css">
+		<![CDATA[
+			.testimonials-angle {
+				fill: #b5b5b5;
+			}
+		]]>
+	</style>
+	<g
+	transform="matrix(-1,0,0,1,54,0)"
+	id="g6">
+	<path
+		d="M 27,0 C 12.112,0 0,12.112 0,27 0,41.888 12.112,54 27,54 41.888,54 54,41.888 54,27 54,12.112 41.888,0 27,0 Z m 0,52 C 13.215,52 2,40.785 2,27 2,13.215 13.215,2 27,2 40.785,2 52,13.215 52,27 52,40.785 40.785,52 27,52 Z"
+		class="testimonials-angle" />
+	<path
+		d="m 30.85,15.793 c -0.391,-0.391 -1.023,-0.391 -1.414,0 l -10.5,10.5 c -0.391,0.391 -0.391,1.023 0,1.414 l 10.5,10.5 c 0.195,0.195 0.451,0.293 0.707,0.293 0.256,0 0.512,-0.098 0.707,-0.293 0.391,-0.391 0.391,-1.023 0,-1.414 L 21.057,27 30.85,17.207 c 0.39,-0.391 0.39,-1.023 0,-1.414 z"
+		class="testimonials-angle" />
+	</g>
+</svg>
