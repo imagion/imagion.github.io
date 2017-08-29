@@ -18,840 +18,438 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
 	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#737373">
+	<meta name="theme-color" content="#000">
 	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#737373">
+	<meta name="msapplication-navbutton-color" content="#000">
 	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#737373">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
-	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #737373; }</style>
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
 
 </head>
 
 <body class="ishome">
 
-	<header class="site-header">
-
-		<div class="top-line">
-			<div class="container">
-				<div class="row">
-					<div class="col-6 col-sm-4 push-sm-4 logo">
-						<a href="#"><img src="img/LOGO.png" alt="Ben italian style"></a>
-					</div>
-
-					<div class="col-6 col-sm-4 push-sm-4 acc-icons">
-						<a href="#" class="profile">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="25" height="25">
-								<g class="white-svg">
-									<path d="M9.5 11c-3.033 0-5.5-2.467-5.5-5.5s2.467-5.5 5.5-5.5 5.5 2.467 5.5 5.5-2.467 5.5-5.5 5.5zM9.5 1c-2.481 0-4.5 2.019-4.5 4.5s2.019 4.5 4.5 4.5c2.481 0 4.5-2.019 4.5-4.5s-2.019-4.5-4.5-4.5z" />
-									<path d="M17.5 20h-16c-0.827 0-1.5-0.673-1.5-1.5 0-0.068 0.014-1.685 1.225-3.3 0.705-0.94 1.67-1.687 2.869-2.219 1.464-0.651 3.283-0.981 5.406-0.981s3.942 0.33 5.406 0.981c1.199 0.533 2.164 1.279 2.869 2.219 1.211 1.615 1.225 3.232 1.225 3.3 0 0.827-0.673 1.5-1.5 1.5zM9.5 13c-3.487 0-6.060 0.953-7.441 2.756-1.035 1.351-1.058 2.732-1.059 2.746 0 0.274 0.224 0.498 0.5 0.498h16c0.276 0 0.5-0.224 0.5-0.5-0-0.012-0.023-1.393-1.059-2.744-1.382-1.803-3.955-2.756-7.441-2.756z" />
-								</g>
-							</svg>
-						</a>
-
-						<a href="#" class="cart">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="25" height="25">
-								<g class="white-svg">
-									<path d="M8 20c-1.103 0-2-0.897-2-2s0.897-2 2-2 2 0.897 2 2-0.897 2-2 2zM8 17c-0.551 0-1 0.449-1 1s0.449 1 1 1 1-0.449 1-1-0.449-1-1-1z" />
-									<path d="M15 20c-1.103 0-2-0.897-2-2s0.897-2 2-2 2 0.897 2 2-0.897 2-2 2zM15 17c-0.551 0-1 0.449-1 1s0.449 1 1 1 1-0.449 1-1-0.449-1-1-1z" />
-									<path d="M17.539 4.467c-0.251-0.297-0.63-0.467-1.039-0.467h-12.243l-0.099-0.596c-0.131-0.787-0.859-1.404-1.658-1.404h-1c-0.276 0-0.5 0.224-0.5 0.5s0.224 0.5 0.5 0.5h1c0.307 0 0.621 0.266 0.671 0.569l1.671 10.027c0.131 0.787 0.859 1.404 1.658 1.404h10c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5h-10c-0.307 0-0.621-0.266-0.671-0.569l-0.247-1.48 9.965-0.867c0.775-0.067 1.483-0.721 1.611-1.489l0.671-4.027c0.067-0.404-0.038-0.806-0.289-1.102zM16.842 5.404l-0.671 4.027c-0.053 0.316-0.391 0.629-0.711 0.657l-10.043 0.873-0.994-5.962h12.076c0.117 0 0.215 0.040 0.276 0.113s0.085 0.176 0.066 0.291z" />
-								</g>
-							</svg>
-						</a>
-
-						<a href="#" class="search">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="25" height="25">
-								<path class="white-svg" d="M18.869 19.162l-5.943-6.484c1.339-1.401 2.075-3.233 2.075-5.178 0-2.003-0.78-3.887-2.197-5.303s-3.3-2.197-5.303-2.197-3.887 0.78-5.303 2.197-2.197 3.3-2.197 5.303 0.78 3.887 2.197 5.303 3.3 2.197 5.303 2.197c1.726 0 3.362-0.579 4.688-1.645l5.943 6.483c0.099 0.108 0.233 0.162 0.369 0.162 0.121 0 0.242-0.043 0.338-0.131 0.204-0.187 0.217-0.503 0.031-0.706zM1 7.5c0-3.584 2.916-6.5 6.5-6.5s6.5 2.916 6.5 6.5-2.916 6.5-6.5 6.5-6.5-2.916-6.5-6.5z" />
-							</svg>
-						</a>
-
-					</div>
-
-					<div class="col-12 col-sm-4 pull-sm-8 phone">
-						<p>+7 (495) <span>665-00-00</span></p>
-						Заказать обратный звонок
-					</div>
-
-				</div>
-			</div>
-		</div><!-- end of top-line -->
-
-		<nav class="main-nav">
-			<ul>
-				<li><a href="#">О нас</a></li>
-				<li><a href="#">Все о шторах</a></li>
-				<li><a href="#">Услуги и цены</a></li>
-				<li><a href="#">Портфолио</a></li>
-				<li><a href="#">Дизайнеры</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
-		</nav><!-- end of main-nav -->
-
-		<div class="hero">
-			<div class="text-heroes">
-				<p class="upper-hero">дом итальянской моды в сфере домашнего текстиля</p>
-				<h1 class="h1">Дизайн / проектирование / пошив / продажа</h1>
-				<p class="lower-hero">Просто расскажите — каким вы видите мир. Остальное за нами!</p>
-			</div>
-
-			<a href="#" class="button filled">Каталог тканей</a>
-			<a href="#" class="button">Портфолио</a>
-		</div><!-- end of hero -->
-
-	</header>
-
-	<main class="site-content">
-
-		<section class="about">
-			<div class="about-left"></div>
-			<div class="about-right"></div>
-			<div class="about-bottom"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-lg-11 offset-lg-1">
-						<h2 class="h2">О нас</h2>
-						<div class="p-wrap">
-							<p>Каждому клиенту гарантируется непревзойденное качество европейских материалов и мастерство индивидуального производства</p>
+		<header class="site-header">
+			<div class="top-line">
+				<div class="container">
+					<div class="row">
+						<div class="col-6 col-sm-1">
+							<img src="img/logo.png" alt="Logo">
 						</div>
-					</div>
-				</div>
-
-				<div class="row features">
-					<div class="col-sm-6 col-md-3">
-						<object type="image/svg+xml" data="img/svg/light-bulb.svg" class="round-svg">
-							<img src="img/fallback/light-bulb.png" alt="No SVG support">
-						</object>
-						<h3 class="h3 PT">BENONE — 8 ЛЕТ</h3>
-						<p>на российском рынке</p>
-					</div>
-
-					<div class="col-sm-6 col-md-3">
-						<object type="image/svg+xml" data="img/svg/light-bulb.svg" class="round-svg">
-							<img src="img/fallback/light-bulb.png" alt="No SVG support">
-						</object>
-						<h3 class="h3 PT">10 000 ТКАНЕЙ</h3>
-						<p>по эксклюзивным ценам</p>
-					</div>
-
-					<div class="col-sm-6 col-md-3">
-						<object type="image/svg+xml" data="img/svg/light-bulb.svg" class="round-svg">
-							<img src="img/fallback/light-bulb.png" alt="No SVG support">
-						</object>
-						<h3 class="h3 PT">3D ВИЗУАЛИЗАЦИЯ</h3>
-						<p>в подарок каждому клиенту</p>
-					</div>
-
-					<div class="col-sm-6 col-md-3">
-						<object type="image/svg+xml" data="img/svg/light-bulb.svg" class="round-svg">
-							<img src="img/fallback/light-bulb.png" alt="No SVG support">
-						</object>
-						<h3 class="h3 PT">ГАРАНТИЯ 2 ГОДА</h3>
-						<p>на все ткани и пошив</p>
-					</div>
-
-				</div><!-- end of row.features -->
-
-				<div class="row benone">
-					<div class="col-sm-12 col-md-7">
-						<h4 class="h4">BENONE</h4>
-						<p>Benone — достойное предложение лучших европейских тканей, собственная фабрика в России, итальянские технологии эксклюзивного пошива плюс бережное отношение к каждому клиенту. Мы не только подбираем домашний текстиль, разрабатываем дизайн и воплощение для декоративных решений. Мы создаем эстетическое пространство нового уровня — атмосферу уютной гармонии, где хочется жить, любить, созидать. В этом смогли убедиться тысячи российских клиентов Benone.</p>
-						<p>Страсть к созданию прекрасного — вот сущность нашей компании, где воедино сливаются искусство и практичность исполнения, идейное вдохновение и умение делать работу в соответствие с жесткими стандартами качества.Benone — это творческая мастерская, в которой трудятся истинные художники и знатоки своего дела. Каждый наш проект — единственное в своем роде творение, создаваемое ради отдельно взятого клиента. Для каждого клиента мы подбираем те самые ткани, которые идеально соответствуют энергетике и эргономике именно вашего дома.</p>
-						<p>Просто расскажите — каким вы видите мир. Остальное за нами!</p>
-					</div>
-					<div class="col-sm-12 col-md-5">
-						<img class="img-responsive"
-							src="img/benone.png"
-							alt="Benone">
-					</div>
-				</div><!-- end of row.benone -->
-			</div>
-		</section>
-
-		<section class="quote s-skew">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="h3">Делаем как себе!<br>3Д дизайн-проект в подарок!</h3>
-						<p>Акция</p>
-						<a href="#" class="button">Подробнее</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="team s-white">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="h2">Дизайнеры</h2>
-						<div class="p-wrap">
-							<p>Дизайн штор в исполнении наших мастеров — это идеальное воплощение ваших идей, знакомьтесь с нашим портфолио</p>
-						</div>
-						<p>Стиль текстильного оформления рождается в результате совместной работы дизайнера и клиента. Дизайнер поможет создать красивую картину имеющегося в комнатах интерьера, сопоставить с 3D дизайн-проектом ваших новых штор.</p>
-						<p>Онлайн-каталог штор и Дом текстиля в Москве Benone-Russia помогут разобраться с большим ассортиментом наших предложений, взять за основу готовый проект декора штор из портфолио или заказать дизайнеру пошив штор по индивидуальным эскизам.</p>
-						<p>Выберите своего дизайнера</p>
-					</div>
-				</div>
-			</div><!-- end of container -->
-
-			<div class="team-carousel">
-
-				<div>
-					<img class="img-responsive"
-						src="img/teammate.png"
-						alt="Teammate">
-					<p>Людмила Зыкина</p>
-					<span>Дизайнер</span>
-				</div>
-
-				<div>
-					<img class="img-responsive"
-						src="img/teammate.png"
-						alt="Teammate">
-					<p>Людмила Зыкина</p>
-					<span>Дизайнер</span>
-				</div>
-
-				<div>
-					<img class="img-responsive"
-						src="img/teammate.png"
-						alt="Teammate">
-					<p>Людмила Зыкина</p>
-					<span>Дизайнер</span>
-				</div>
-
-				<div>
-					<img class="img-responsive"
-						src="img/teammate.png"
-						alt="Teammate">
-					<p>Людмила Зыкина</p>
-					<span>Дизайнер</span>
-				</div>
-
-				<div>
-					<img class="img-responsive"
-						src="img/teammate.png"
-						alt="Teammate">
-					<p>Людмила Зыкина</p>
-					<span>Дизайнер</span>
-				</div>
-
-				<div>
-					<img class="img-responsive"
-						src="img/teammate.png"
-						alt="Teammate">
-					<p>Людмила Зыкина</p>
-					<span>Дизайнер</span>
-				</div>
-
-				<div>
-					<img class="img-responsive"
-						src="img/teammate.png"
-						alt="Teammate">
-					<p>Людмила Зыкина</p>
-					<span>Дизайнер</span>
-				</div>
-
-			</div><!-- end of team-carousel -->
-
-			<div class="button-wrap">
-				<a href="#" class="button">Заказать</a>
-			</div>
-
-		</section>
-
-		<section class="facts s-skew">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-md-4">
-						<div class="round-svg-wrap round-svg">
-							<object type="image/svg+xml" data="img/svg/drawer.svg">
-								Your browser does not support SVGs
-							</object>
-						</div>
-						<div class="facts-text">
-							<h3 class="h3">ВЫБЕРИТЕ<br>СВОЮ АКЦИЮ</h3>
-							<p>Майские скидки на ткани!<br>Подарки к Дню Победы!<br>3Д дизайн-проект в подарок!</p>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="round-svg-wrap round-svg">
-							<object type="image/svg+xml" data="img/svg/user.svg">
-								Your browser does not support SVGs
-							</object>
-						</div>
-						<div class="facts-text">
-							<h3 class="h3">ПОЗВОНИТЕ НАМ<br>+7 (495) 966-41-34</h3>
-							<p>каждый день с 9.00-21.00</p>
-							<p>узнайте больше об акциях и специальных предложениях задайте свой вопрос дизайнеру</p>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="round-svg-wrap round-svg">
-							<object type="image/svg+xml" data="img/svg/thumbs-up.svg">
-								Your browser does not support SVGs
-							</object>
-						</div>
-						<div class="facts-text">
-							<h3 class="h3">ПРИГЛАСИТЕ<br>ДИЗАЙНЕРА</h3>
-							<p>согласуйте удобное время</p>
-							<p>дизайнер привезёт образцы тканей и электронный каталог</p>
-							<p>получите в подарок 3D дизайн штор</p>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
-		<section class="service s-white">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="h2">Услуги и цены</h2>
-						<div class="p-wrap">
-							<p>Только в мае на все ткани европейских производителей уникальные скидки: ткани производства Испании - 15%, ткани производства Германии - 20%, ткани производства Италии - 30%!</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="row one-two-three">
-
-					<div class="col-12 col-md-4">
-						<div class="service-number">
-							<p>1</p>
-							<div class="round-svg-wrap round-svg">
-								<object type="image/svg+xml" data="img/svg/star.svg">
-									Your browser does not support SVGs
-								</object>
-							</div>
-						</div>
-						<h3 class="h3">ПРИГЛАСИТЕ ДИЗАЙНЕРА В ГОСТИ!</h3>
-						<p>Дизайнер привезёт с собой конфеты, а за чашкой чая поможет не растеряться в разнообразии материалов и подобрать стиль, который будет встречать вас утром и желать спокойной ночи перед сном.</p>
-					</div>
-
-					<div class="col-12 col-md-4">
-						<div class="service-number">
-							<p>2</p>
-							<div class="round-svg-wrap round-svg">
-								<object type="image/svg+xml" data="img/svg/flask.svg">
-									Your browser does not support SVGs
-								</object>
-							</div>
-						</div>
-						<h3 class="h3">СОЗДАЙТЕ УНИКАЛЬНЫЙ ДИЗАЙН</h3>
-						<p>Под вашим руководством мы нарисуем мечту, которую вы увидите не выходя из дома и сможете дополнить её свежими идеями, чтобы ни одна деталь не осталась незамеченной, ведь всё должно быть идеально!</p>
-					</div>
-
-					<div class="col-12 col-md-4">
-						<div class="service-number">
-							<p>3</p>
-							<div class="round-svg-wrap round-svg">
-								<object type="image/svg+xml" data="img/svg/internet.svg">
-									Your browser does not support SVGs
-								</object>
-							</div>
-						</div>
-						<h3 class="h3">В ШАГЕ ОТ МЕЧТЫ</h3>
-						<p>Мы будем оберегать вашу мечту и лично присутствовать при волшебном процессе её создания, а томительное предвкушение чуда превзойдёт самые яркие ожидания. Просто позвоните нам!</p>
-					</div>
-				</div><!-- end of one-two-three -->
-
-				<div class="row orders">
-
-					<div class="col-12 col-lg-4">
-						<div class="round-svg-wrap round-svg">
-							<object type="image/svg+xml" data="img/svg/internet.svg">
-								Your browser does not support SVGs
-							</object>
-						</div>
-						<h3 class="h3">УСЛУГИ И ЦЕНЫ НА ПОШИВ ШТОР</h3>
-						<p>Только в мае на все ткани европейских производителей уникальные скидки:</p>
-						<ul>
-							<li>ткани производства Испании - 15%,</li>
-							<li>ткани производства Германии - 20%,</li>
-							<li>ткани производства Италии - 30%!</li>
-						</ul>
-					</div>
-
-					<div class="col-12 col-lg-8 orders-block">
-						<div class="row">
-
-							<div class="col-8 offset-2 col-sm-4 offset-sm-0 orders-item">
-								<div class="orders-headline">
-									<p>standart</p>
-									<span>От 15 000 р.</span>
-								</div>
-								<div class="orders-content">
-									<p>Простые шторы, но, безусловно, уникальный дизайн от наших мастеров, создадут в доме ощущение гармонии и уюта.</p>
-									<a href="#" class="button">Заказать</a>
-								</div>
-							</div>
-
-							<div class="col-8 offset-2 col-sm-4 offset-sm-0 orders-item center">
-								<div class="orders-headline">
-									<p>premium</p>
-									<span>От 15 000 р.</span>
-								</div>
-								<div class="orders-content">
-									<p>Разнообразие дизайнерских решений, которые не только украсят и выделят вашу квартиру, но и станут предметом гордости.</p>
-									<a href="#" class="button">Заказать</a>
-								</div>
-							</div>
-
-							<div class="col-8 offset-2 col-sm-4 offset-sm-0 orders-item">
-								<div class="orders-headline">
-									<p>luxury</p>
-									<span>От 15 000 р.</span>
-								</div>
-								<div class="orders-content">
-									<p>Уникальные ткани из Италии, Франции и Лондона, под стать вашему интерьеру — это истинная ценность неповторимого дизайна.</p>
-									<a href="#" class="button">Заказать</a>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div><!-- end of orders -->
-
-			</div>
-		</section>
-
-		<section class="testimonials s-skew">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="testimonials-carousel">
-							<div>
-								<h3 class="h3">Екатерина Зубкова</h3>
-								<p>“Каждому клиенту гарантируется непревзойденное качество европейских материалов и мастерство индивидуального производства”</p>
-								<picture>
-									<source media="(min-width: 768px)"
-											srcset="img/testimonials-person-large.png">
-									<img class="img-responsive"
-										src="img/testimonials-person-small.png"
-										alt="Екатерина Зубкова">
-								</picture>
-							</div>
-
-							<div>
-								<h3 class="h3">Екатерина Зубкова</h3>
-								<p>“Каждому клиенту гарантируется непревзойденное качество европейских материалов и мастерство индивидуального производства”</p>
-								<picture>
-									<source media="(min-width: 768px)"
-											srcset="img/testimonials-person-large.png">
-									<img class="img-responsive"
-										src="img/testimonials-person-small.png"
-										alt="Екатерина Зубкова">
-								</picture>
-							</div>
-
-							<div>
-								<h3 class="h3">Екатерина Зубкова</h3>
-								<p>“Каждому клиенту гарантируется непревзойденное качество европейских материалов и мастерство индивидуального производства”</p>
-								<picture>
-									<source media="(min-width: 768px)"
-											srcset="img/testimonials-person-large.png">
-									<img class="img-responsive"
-										src="img/testimonials-person-small.png"
-										alt="Екатерина Зубкова">
-								</picture>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="works s-white">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="h2">Портфолио</h2>
-						<div class="p-wrap">
-							<p>Для каждого клиента мы подбираем те самые ткани, которые идеально соответствуют энергетике и эргономике именно вашего дома.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row featured-proj">
-					<div class="col-md-12">
-
-						<div class="featured-proj-crousel">
-							<div class="featured-proj-crousel-inner">
-								<img class="img-responsive"
-									src="img/featured-project.png"
-									alt="Featured Project">
-								<img class="img-responsive"
-									src="img/featured-project.png"
-									alt="Featured Project">
-								<img class="img-responsive"
-									src="img/featured-project.png"
-									alt="Featured Project">
-							</div>
-						</div>
-
-						<h5 class="h5">Французские шторы</h5>
-						<p>Традиционно французские шторы представляют собой каскады полукруглых складок из ткани по всей длине полотна. Такой вариант оформления окон встречается  в театрах, концертных залах, дорогих ресторанах, а также в частных интерьерах, для которых характерны большие пространства и несколько окон в одном помещении. Дизайнеры Benone-Russia используют французские шторы для создания атмосферы торжественности, величия и парадности. Полотно поднимается вверх вручную или при помощи механизма. При подъеме складки собираются в красивые «гроздья».</p>
-						<ul>
-							<li>Французские шторы — ваш вариант оформления окон, если:</li>
-							<li>Вы любите классику во всех ее проявлениях</li>
-							<li>Вам нравится окружать себя изысканными и элегантными вещами</li>
-							<li>для украшения своих окон вы предпочтете легкие, тонкие, благородные ткани превосходного качества</li>
-						</ul>
-						<p>Классические интерьеры гостиных, залов, спален и рабочих кабинетов прекрасно дополняются французскими шторами. В атмосфере преобладают аристократизм и возвышенность, обстановка становится праздничной и парадной. Французские шторы — эксклюзивная оправа для окон, которая может быть дополнена ламбрекенами, воланами, де жабо и другими элементами.</p>
-					</div>
-				</div><!-- end of row featured-proj -->
-
-				<div class="row portfolio">
-						<nav class="portfolio-nav">
-							<ul>
-								<li><a href="#">Все</a></li>
-								<li><a href="#">Спальни</a></li>
-								<li><a href="#">Кухни</a></li>
-								<li><a href="#">Зал</a></li>
-								<li><a href="#">Загородные дома</a></li>
-								<li><a href="#">Другие</a></li>
-							</ul>
-						</nav>
-					<div class="col-12 col-sm-6 col-md-3 portfolio-item">
-						<img class="img-responsive" src="img/portfolio1.png" alt="">
-						<p>Название штор</p>
-						<span>Французские</span>
-					</div>
-					<div class="col-12 col-sm-6 col-md-3 portfolio-item">
-						<img class="img-responsive" src="img/portfolio2.png" alt="">
-						<p>Название штор</p>
-						<span>Французские</span>
-					</div>
-					<div class="col-12 col-sm-6 col-md-3 portfolio-item">
-						<img class="img-responsive" src="img/portfolio3.png" alt="">
-						<p>Название штор</p>
-						<span>Французские</span>
-					</div>
-					<div class="col-12 col-sm-6 col-md-3 portfolio-item">
-						<img class="img-responsive" src="img/portfolio4.png" alt="">
-						<p>Название штор</p>
-						<span>Французские</span>
-					</div>
-					<div class="col-12 col-sm-6 col-md-3 portfolio-item">
-						<img class="img-responsive" src="img/portfolio5.png" alt="">
-						<p>Название штор</p>
-						<span>Французские</span>
-					</div>
-					<div class="col-12 col-sm-6 col-md-3 portfolio-item">
-						<img class="img-responsive" src="img/portfolio6.png" alt="">
-						<p>Название штор</p>
-						<span>Французские</span>
-					</div>
-					<div class="col-12 col-sm-6 col-md-3 portfolio-item">
-						<img class="img-responsive" src="img/portfolio7.png" alt="">
-						<p>Название штор</p>
-						<span>Французские</span>
-					</div>
-					<div class="col-12 col-sm-6 col-md-3 portfolio-item">
-						<img class="img-responsive" src="img/portfolio8.png" alt="">
-						<p>Название штор</p>
-						<span>Французские</span>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="tweet s-skew">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="tweet-image"></div>
-						<p class="tweet-text">Отличная компания всем советую к ним обратится.</p>
-						<span class="tweet-name">Артем Иванов</span>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="blog s-white">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="h2">Интерьер</h2>
-						<div class="p-wrap">
-							<p>Каждая деталь интерьера играет свою решающую роль в создании идеального пространства</p>
-						</div>
-					</div>
-				</div>
-				<div class="row r-items">
-					<div class="col-md-6">
-						<img src="img/blog1.png" alt="Blog-image">
-						<div class="blog-girl"><img src="img/blog-girl.png" alt=""></div>
-						<div class="blog-text">
-							<h6 class="h6">«Окно в модерн»</h6>
-							<p>Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
-							<a href="#" class="button">Подробнее</a>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<img src="img/blog2.png" alt="Blog-image">
-						<div class="blog-girl"><img src="img/blog-girl.png" alt=""></div>
-						<div class="blog-text">
-							<h6 class="h6">«Окно в модерн с ноткой прованс»</h6>
-							<p>Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
-							<a href="#" class="button">Подробнее</a>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<img src="img/blog3.png" alt="Blog-image">
-						<div class="blog-girl"><img src="img/blog-girl.png" alt=""></div>
-						<div class="blog-text">
-							<h6 class="h6">«Окно в модерн»</h6>
-							<p>Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
-							<a href="#" class="button">Подробнее</a>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<img src="img/blog4.png" alt="Blog-image">
-						<div class="blog-girl"><img src="img/blog-girl.png" alt=""></div>
-						<div class="blog-text">
-							<h6 class="h6">«Окно в модерн»</h6>
-							<p>Оригинальный дизайн штор великолепно гармонирует с общим интерьером, стремящимся увеличить пространство мансардной комнаты.</p>
-							<a href="#" class="button">Подробнее</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="clients s-skew">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="h3">Наши клиенты</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3"><img src="img/client1.png" alt="Client1"></div>
-					<div class="col-md-3"><img src="img/client2.png" alt="Client2"></div>
-					<div class="col-md-3"><img src="img/client3.png" alt="Client3"></div>
-					<div class="col-md-3"><img src="img/client4.png" alt="Client4"></div>
-				</div>
-			</div>
-		</section>
-
-	</main>
-
-	<footer class="site-footer">
-
-		<div class="footer-flowers s-skew"></div>
-
-		<section class="footer-social">
-
-			<ul>
-				<li>
-					<a href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="40" height="40"
-							viewBox="0 0 16 16">
-						<path class="social-icons" d="M9.5 3h2.5v-3h-2.5c-1.93 0-3.5 1.57-3.5 3.5v1.5h-2v3h2v8h3v-8h2.5l0.5-3h-3v-1.5c0-0.271 0.229-0.5 0.5-0.5z"></path>
-						</svg>
-						<p>Facebook</p>
-					</a>
-				</li>
-
-				<li>
-					<a href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="40" height="40"
-							viewBox="0 0 64 64">
-							<g class="social-icons">
-								<path d="M56.568,14.179v-0.032c0.558-0.218,0.998-0.68,1.441-1.022c2-1.541,3.301-3.57,4.26-6.164
-									c-0.543,0.298-1.088,0.596-1.633,0.894c-1.681,0.853-4.533,2.079-6.728,2.267c-2.586-2.356-5.292-4.209-10.378-4.12
-									c-0.534,0.064-1.068,0.128-1.602,0.192c-1.037,0.227-2.025,0.508-2.916,0.894c-3.724,1.616-6.263,4.631-7.431,8.814
-									c-0.465,1.664-0.654,4.445-0.064,6.164c-2.101-0.003-4.135-0.334-5.894-0.767C18.69,19.594,14.372,17.29,9.578,13.54
-									C8.17,12.439,6.789,11.191,5.67,9.804C5.309,9.357,4.74,8.965,4.485,8.43C4.463,8.42,4.442,8.409,4.421,8.398
-									c-0.557,1.032-1.08,2.15-1.409,3.417c-1.3,4.994,0.755,9.188,2.947,11.912c0.664,0.826,1.741,1.338,2.402,2.108h0.064
-									c-0.497,0.184-1.361-0.071-1.794-0.16c-1.024-0.211-1.897-0.405-2.755-0.766c-0.448-0.213-0.897-0.426-1.345-0.639
-									c-0.021,5.517,2.766,9.103,6.182,11.241c1.114,0.697,2.672,1.636,4.292,1.724c-0.867,0.732-4.575,0.396-5.862,0.256
-									c1.609,4.142,4.081,6.9,8.328,8.398c1.096,0.387,2.433,0.729,3.908,0.703c-0.783,0.93-2.454,1.688-3.556,2.331
-									c-2.272,1.329-4.91,2.191-7.88,2.843c-1.191,0.26-2.457,0.207-3.748,0.414c-1.427,0.23-2.92-0.121-4.196-0.16
-									c0.384,0.234,0.769,0.47,1.153,0.703c1.171,0.713,2.394,1.338,3.716,1.916c2.379,1.041,4.914,1.826,7.72,2.523
-									c5.658,1.404,13.64,0.773,18.579-0.766c13.754-4.287,22.442-14.293,25.722-29.03c0.564-2.535,0.646-5.414,0.609-8.431
-									c0.684-0.543,1.367-1.086,2.05-1.629c1.693-1.356,3.28-3.246,4.452-5.11v-0.032C61.768,12.864,59.418,14.149,56.568,14.179z"/>
-							</g>
-						</svg>
-						<p>Twitter</p>
-					</a>
-				</li>
-
-				<li>
-					<a href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="40" height="40"
-							viewBox="0 0 16 16">
-							<g class="social-icons">
-
-								<path
-									d="M5.091 7.147v1.747h2.888c-0.116 0.75-0.872 2.197-2.888 2.197-1.737 0-3.156-1.441-3.156-3.216s1.419-3.216 3.156-3.216c0.991 0 1.65 0.422 2.028 0.784l1.381-1.331c-0.888-0.828-2.037-1.331-3.409-1.331-2.816 0.003-5.091 2.278-5.091 5.094s2.275 5.091 5.091 5.091c2.937 0 4.888-2.066 4.888-4.975 0-0.334-0.037-0.591-0.081-0.844h-4.806z">
-								</path>
-								<path
-									d="M16 7h-1.5v-1.5h-1.5v1.5h-1.5v1.5h1.5v1.5h1.5v-1.5h1.5z">
-								</path>
-
-							</g>
-						</svg>
-						<p>Google +</p>
-					</a>
-				</li>
-
-				<li>
-					<a href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="40" height="40"
-							viewBox="0 0 304.36 304.36">
-							<g class="social-icons">
-								<path id="XMLID_807_" style="fill-rule:evenodd;clip-rule:evenodd;" d="M261.945,175.576c10.096,9.857,20.752,19.131,29.807,29.982
-									c4,4.822,7.787,9.798,10.684,15.394c4.105,7.955,0.387,16.709-6.746,17.184l-44.34-0.02c-11.436,0.949-20.559-3.655-28.23-11.474
-									c-6.139-6.253-11.824-12.908-17.727-19.372c-2.42-2.642-4.953-5.128-7.979-7.093c-6.053-3.929-11.307-2.726-14.766,3.587
-									c-3.523,6.421-4.322,13.531-4.668,20.687c-0.475,10.441-3.631,13.186-14.119,13.664c-22.414,1.057-43.686-2.334-63.447-13.641
-									c-17.422-9.968-30.932-24.04-42.691-39.971C34.828,153.482,17.295,119.395,1.537,84.353C-2.01,76.458,0.584,72.22,9.295,72.07
-									c14.465-0.281,28.928-0.261,43.41-0.02c5.879,0.086,9.771,3.458,12.041,9.012c7.826,19.243,17.402,37.551,29.422,54.521
-									c3.201,4.518,6.465,9.036,11.113,12.216c5.142,3.521,9.057,2.354,11.476-3.374c1.535-3.632,2.207-7.544,2.553-11.434
-									c1.146-13.383,1.297-26.743-0.713-40.079c-1.234-8.323-5.922-13.711-14.227-15.286c-4.238-0.803-3.607-2.38-1.555-4.799
-									c3.564-4.172,6.916-6.769,13.598-6.769h50.111c7.889,1.557,9.641,5.101,10.721,13.039l0.043,55.663
-									c-0.086,3.073,1.535,12.192,7.07,14.226c4.43,1.448,7.35-2.096,10.008-4.905c11.998-12.734,20.561-27.783,28.211-43.366
-									c3.395-6.852,6.314-13.968,9.143-21.078c2.096-5.276,5.385-7.872,11.328-7.757l48.229,0.043c1.43,0,2.877,0.021,4.262,0.258
-									c8.127,1.385,10.354,4.881,7.844,12.817c-3.955,12.451-11.65,22.827-19.174,33.251c-8.043,11.129-16.645,21.877-24.621,33.072
-									C252.26,161.544,252.842,166.697,261.945,175.576L261.945,175.576z M261.945,175.576"/>
-							</g>
-						</svg>
-						<p>Вконтакте</p>
-					</a>
-				</li>
-
-				<li>
-					<a href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="40" height="40"
-							viewBox="0 0 95.481 95.481">
-							<g class="social-icons">
-								<path d="M43.041,67.254c-7.402-0.772-14.076-2.595-19.79-7.064c-0.709-0.556-1.441-1.092-2.088-1.713
-									c-2.501-2.402-2.753-5.153-0.774-7.988c1.693-2.426,4.535-3.075,7.489-1.682c0.572,0.27,1.117,0.607,1.639,0.969
-									c10.649,7.317,25.278,7.519,35.967,0.329c1.059-0.812,2.191-1.474,3.503-1.812c2.551-0.655,4.93,0.282,6.299,2.514
-									c1.564,2.549,1.544,5.037-0.383,7.016c-2.956,3.034-6.511,5.229-10.461,6.761c-3.735,1.448-7.826,2.177-11.875,2.661
-									c0.611,0.665,0.899,0.992,1.281,1.376c5.498,5.524,11.02,11.025,16.5,16.566c1.867,1.888,2.257,4.229,1.229,6.425
-									c-1.124,2.4-3.64,3.979-6.107,3.81c-1.563-0.108-2.782-0.886-3.865-1.977c-4.149-4.175-8.376-8.273-12.441-12.527
-									c-1.183-1.237-1.752-1.003-2.796,0.071c-4.174,4.297-8.416,8.528-12.683,12.735c-1.916,1.889-4.196,2.229-6.418,1.15
-									c-2.362-1.145-3.865-3.556-3.749-5.979c0.08-1.639,0.886-2.891,2.011-4.014c5.441-5.433,10.867-10.88,16.295-16.322
-									C42.183,68.197,42.518,67.813,43.041,67.254z"/>
-								<path d="M47.55,48.329c-13.205-0.045-24.033-10.992-23.956-24.218C23.67,10.739,34.505-0.037,47.84,0
-									c13.362,0.036,24.087,10.967,24.02,24.478C71.792,37.677,60.889,48.375,47.55,48.329z M59.551,24.143
-									c-0.023-6.567-5.253-11.795-11.807-11.801c-6.609-0.007-11.886,5.316-11.835,11.943c0.049,6.542,5.324,11.733,11.896,11.709
-									C54.357,35.971,59.573,30.709,59.551,24.143z"/>
-							</g>
-						</svg>
-						<p>Одноклассники</p>
-					</a>
-				</li>
-
-				<li>
-					<a href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="40" height="40"
-							viewBox="0 0 169.063 169.063">
-							<g class="social-icons">
-								<path d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752
-									c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407
-									c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752
-									c17.455,0,31.656,14.201,31.656,31.655V122.407z"/>
-								<path d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561
-									C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561
-									c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z"/>
-								<path d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78
-									c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78
-									C135.661,29.421,132.821,28.251,129.921,28.251z"/>
-							</g>
-						</svg>
-						<p>Instagram</p>
-					</a>
-				</li>
-
-			</ul>
-
-		</section>
-
-		<section class="footer-main">
-			<div class="container container-1600">
-				<div class="row footer-form">
-					<div class="col-md-9">
-						<div class="row">
-							<div class="col-md-3">
-								<p>О компании</p>
-								<a href="#">О Benone</a>
-								<a href="#">3D Дизайн штор</a>
-								<a href="#">Услуги и цены</a>
-								<a href="#">Пошив штор</a>
-								<a href="#">Все о шторах</a>
-								<a href="#">Карнизы для штор</a>
+						<div class="col-6 col-sm-11">
+							<span class="burger" style="font-size:30px">&#9776;</span>
+							<nav class="main-nav">
+								<a href="javascript:void(0)" class="closebtn">&times;</a>
+								<a href="#">О нас</a>
+								<a href="#">Загрузка</a>
+								<a href="#">О работе</a>
+								<a href="#">Поддержка</a>
+								<a href="#">Отзывы</a>
 								<a href="#">Контакты</a>
-								<a href="#">Карта сайта</a>
-							</div>
-							<div class="col-md-2">
-								<p>Портфолио</p>
-								<a href="#">Дизайн штор</a>
-								<a href="#">Виды штор</a>
-								<a href="#">Стили штор</a>
-								<a href="#">Жилые зоны</a>
-								<a href="#">Ткани</a>
-							</div>
-							<div class="col-md-3 pad-left">
-								<p>Все о шторах</p>
-								<a href="#">Виды штор</a>
-								<a href="#">Стили штор</a>
-								<a href="#">Жилые зоны</a>
-								<a href="#">Ткани для штор</a>
-								<a href="#">Шторы на заказ</a>
-								<a href="#">Наши партнеры</a>
-							</div>
-							<div class="col-md-4">
-								<p>Контакты</p>
-								<span>Телефон: +7 (495) 665-03-05</span>
-								<span>Почта: info@benone-italy.com</span>
-								<span>Адрес: Москва, Новый арбат, 21 <br>
-								Москва, Варшавское шоссе, 17</span>
-							</div>
+							</nav>
 						</div>
-					</div>
-					<div class="col-md-3">
-						<form>
-							<p>Подпишитесь на наши новости</p>
-							<fieldset>
-								<input type="text" name="name" placeholder="name">
-								<input type="email" name="email" placeholder="email">
-								<a href="#" class="button">Отправить</a>
-							</fieldset>
-						</form>
-					</div>
-				</div>
-				<div class="row footer-lorem">
-					<div class="col-md-12">
-						<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Оксмокс имени, прямо но мир вскоре предупреждал на берегу сбить своих осталось необходимыми жаренные курсивных, одна! Заманивший маленькая деревни своих живет! Пустился составитель, букв маленькая последний. Алфавит жизни залетают продолжил пунктуация инициал, деревни сбить его свой ему реторический приставка lorem послушавшись! Оксмокс ты своих семь, живет единственное не, города грамматики коварный залетают всеми однажды она коварных алфавит путь. Языком большого она ipsum подзаголовок силуэт, большой первую деревни языкового всеми образ семантика предупреждал которое, предложения, точках бросил предупредила несколько необходимыми. Вдали курсивных толку жизни переулка, прямо! Сбить власти курсивных, снова, буквоград однажды продолжил, они своего силуэт проектах обеспечивает она реторический свой безопасную возвращайся. Даже все пояс эта. Ведущими своего ipsum, предложения ему его, эта переписывается родного коварный раз дорогу имеет, буквоград последний если бросил она большой свой переулка безорфографичный пояс правилами за щеке собрал рыбного вопроса послушавшись. Жаренные вершину власти, своего грустный залетают, они. Составитель, единственное, проектах! Вопроса до вопрос коварных вдали о дал запятых от всех использовало проектах, заманивший маленький над домах коварный по всей великий рукопись правилами своих свое снова грустный на берегу напоивший взгляд мир сих! Пустился прямо страна лучше текстов снова своих силуэт курсивных ему грустный проектах, залетают, буквоград переписали на берегу.</p>
 					</div>
 				</div>
 			</div>
-		</section>
+			<div class="hero">
+				<div class="container">
+					<div class="row">
+						<div class="col-7 col-sm-8 col-lg-6">
+							<h1 class="h1">Построено с дизайнерами приложений</h1>
+							<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Безорфографичный несколько заголовок большой правилами сбить.</p>
+							<a href="#" class="button empty">Как это работает</a>
+						</div>
+						<div class="col-5 col-sm-4 col-lg-6">
+							<img src="img/iphone1.png" alt="iphone">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 
-		<section class="footer-copy">
-			<span>&copy;2017</span>
-		</section>
+		<main class="site-content">
+			<section class="s-about">
+				<div class="container">
+					<div class="row r-title">
+						<div class="col-12">
+							<p>Как это работает</p>
+							<h2 class="h2">Далеко-далеко за словесными</h2>
+						</div>
+					</div>
 
-	</footer>
+					<div class="row r-about">
+						<div class="col-sm-6 col-lg-4">
+							<img srcset="img/about1-small.png 123w,
+										 img/about1.png 148w"
+								 sizes="(max-width: 400px) 123px,
+										148px"
+								 src="img/about1.png" alt="about">
+							<p class="about-title">Далеко-далеко за словесными горами</p>
+							<p class="about-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут.</p>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<img srcset="img/about2-small.png 123w,
+										 img/about2.png 148w"
+								 sizes="(max-width: 400px) 123px,
+										148px"
+								 src="img/about2.png" alt="about">
+							<p class="about-title">Далеко-далеко за словесными горами</p>
+							<p class="about-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут.</p>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<img srcset="img/about3-small.png 123w,
+										 img/about3.png 148w"
+								 sizes="(max-width: 400px) 123px,
+										148px"
+								 src="img/about3.png" alt="about">
+							<p class="about-title">Далеко-далеко за словесными горами</p>
+							<p class="about-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут.</p>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<img srcset="img/about4-small.png 123w,
+										 img/about4.png 148w"
+								 sizes="(max-width: 400px) 123px,
+										148px"
+								 src="img/about4.png" alt="about">
+							<p class="about-title">Далеко-далеко за словесными горами</p>
+							<p class="about-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут.</p>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<img srcset="img/about5-small.png 123w,
+										 img/about5.png 148w"
+								 sizes="(max-width: 400px) 123px,
+										148px"
+								 src="img/about5.png" alt="about">
+							<p class="about-title">Далеко-далеко за словесными горами</p>
+							<p class="about-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут.</p>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<img srcset="img/about6-small.png 123w,
+										 img/about6.png 148w"
+								 sizes="(max-width: 400px) 123px,
+										148px"
+								 src="img/about6.png" alt="about">
+							<p class="about-title">Далеко-далеко за словесными горами</p>
+							<p class="about-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="s-make">
+				<div class="container">
+					<div class="row">
+						<div class="col-5">
+							<img class="img-responsive iphone2" src="img/iphone2.png" alt="iphone">
+						</div>
+						<div class="col-7">
+							<h2 class="h2">Создавай и делись с сообществом</h2>
+							<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Ipsum, своего, языкового оксмокс рыбными маленькая домах.</p>
+							<a href="#" class="button apps app-store">
+								<div class="left"><img src="img/ic-apple.png" alt="app-store"></div>
+								<div class="right">
+									<span>free download</span>
+									<p>App Store</p>
+								</div>
+							</a>
+							<a href="#" class="button apps google-play">
+								<div class="left"><img src="img/ic-google.png" alt="google-play"></div>
+								<div class="right">
+									<span>free download</span>
+									<p>Google play</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="s-work">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9 col-lg-6">
+							<h2 class="h2">О работе</h2>
+							<div class="tabs">
+								<input type="radio" id="tab1" name="tab-control" checked>
+								<input type="radio" id="tab2" name="tab-control">
+								<input type="radio" id="tab3" name="tab-control">
+								<input type="radio" id="tab4" name="tab-control">
+
+								<ul>
+									<li><label for="tab1" role="button">
+										<span>Предпросмотр</span></label></li>
+									<li><label for="tab2" role="button">
+										<span>Покупка</span></label></li>
+									<li><label for="tab3" role="button">
+										<span>Оплата</span></label></li>
+								<li><label for="tab4" role="button">
+										<span>Завершение</span></label></li>
+								</ul>
+
+								<div class="tabs-slider"><div class="indicator"></div></div>
+								<div class="tabs-content">
+									<article>
+										<h4 class="h4">Предпросмотр</h4>
+										<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Себя заголовок маленький, они повстречался.</p>
+									</article>
+									<article>
+										<h4 class="h4">Покупка</h4>
+										<p>	Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Строчка коварный курсивных жаренные образ сих от всех эта.</p>
+									</article>
+									<article>
+										<h4 class="h4">Оплата</h4>
+										<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Ручеек инициал переписывается по всей грамматики, выйти своих послушавшись знаках журчит.</p>
+									</article>
+									<article>
+										<h4 class="h4">Завершение</h4>
+										<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Большой всеми буквоград даже вскоре наш. Бросил, агенство!</p>
+									</article>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-lg-6 col-iphone">
+							<img class="iphone3" src="img/iphone3.png" alt="iphone">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="s-join">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-8 offset-lg-2">
+							<h3 class="h3">Получите уведомление сейчас</h3>
+							<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Осталось точках океана имеет семь?</p>
+							<form class="row">
+								<div class="col-7 col-sm-9">
+									<input type="email" placeholder="Ваш email">
+								</div>
+								<div class="col-5 col-sm-3">
+									<a href="#" class="button white">Я готов!</a>
+								</div>
+
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="s-user">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<h2 class="h2">Пользователи говорят</h2>
+							<div class="carousel-wrap">
+								<div class="user-carousel">
+
+									<div>
+										<img srcset="img/user3-xs.png 100w,
+													 img/user1-small.png 120w,
+													 img/user1-medium.png 140w,
+													 img/user1-large.png 180w",
+											 sizes="(max-width: 500px) 100px,
+													 (max-width: 767px) 120px,
+													(max-width: 991px) 140px,
+													180px"
+											 src="img/user1-large.png" alt="User1">
+										<div class="carousel-text">
+											<h5 class="h5">Jonathan Laene</h5>
+											<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свое пунктуация переписывается всемогущая вопрос.</p>
+											<span>
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+											</span>
+										</div>
+									</div>
+
+									<div>
+										<img srcset="img/user2-xs.png 100w,
+													 img/user2-small.png 120w,
+													 img/user2-medium.png 140w,
+													 img/user2-large.png 180w",
+											 sizes="(max-width: 500px) 100px,
+													 (max-width: 767px) 120px,
+													(max-width: 991px) 140px,
+													180px"
+											 src="img/user2-large.png" alt="User2">
+										<div class="carousel-text">
+											<h5 class="h5">Jonathan Laene</h5>
+											<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свое пунктуация переписывается всемогущая вопрос.</p>
+											<span>
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+											</span>
+										</div>
+									</div>
+
+									<div>
+										<img srcset="img/user3-xs.png 100w,
+													 img/user3-small.png 120w,
+													 img/user3-medium.png 140w,
+													 img/user3-large.png 180w",
+											 sizes="(max-width: 500px) 100px,
+													 (max-width: 767px) 120px,
+													(max-width: 991px) 140px,
+													180px"
+											 src="img/user3-large.png" alt="User3">
+										<div class="carousel-text">
+											<div class="carousel-text">
+												<h5 class="h5">Jonathan Laene</h5>
+												<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свое пунктуация переписывается всемогущая вопрос.</p>
+												<span>
+													<img src="img/star.png" alt="star">
+													<img src="img/star.png" alt="star">
+													<img src="img/star.png" alt="star">
+													<img src="img/star.png" alt="star">
+													<img src="img/star.png" alt="star">
+												</span>
+											</div>
+										</div>
+									</div>
+
+									<div>
+										<img srcset="img/user1-xs.png 100w,
+													 img/user1-small.png 120w,
+													 img/user1-medium.png 140w,
+													 img/user1-large.png 180w",
+											 sizes="(max-width: 500px) 100px,
+													 (max-width: 767px) 120px,
+													(max-width: 991px) 140px,
+													180px"
+											 src="img/user1-large.png" alt="User1">
+										<div class="carousel-text">
+											<h5 class="h5">Jonathan Laene</h5>
+											<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свое пунктуация переписывается всемогущая вопрос.</p>
+											<span>
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+											</span>
+										</div>
+									</div>
+
+									<div>
+										<img srcset="img/user2-xs.png 100w,
+													 img/user2-small.png 120w,
+													 img/user2-medium.png 140w,
+													 img/user2-large.png 180w",
+											 sizes="(max-width: 500px) 100px,
+													 (max-width: 767px) 120px,
+													(max-width: 991px) 140px,
+													180px"
+											 src="img/user2-large.png" alt="User2">
+										<div class="carousel-text">
+											<h5 class="h5">Jonathan Laene</h5>
+											<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свое пунктуация переписывается всемогущая вопрос.</p>
+											<span>
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+											</span>
+										</div>
+									</div>
+
+									<div>
+										<img srcset="img/user3-xs.png 100w,
+													 img/user3-small.png 120w,
+													 img/user3-medium.png 140w,
+													 img/user3-large.png 180w",
+											 sizes="(max-width: 500px) 100px,
+													(max-width: 767px) 120px,
+													(max-width: 991px) 140px,
+													180px"
+											 src="img/user3-large.png" alt="User3">
+										<div class="carousel-text">
+											<h5 class="h5">Jonathan Laene</h5>
+											<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свое пунктуация переписывается всемогущая вопрос.</p>
+											<span>
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+												<img src="img/star.png" alt="star">
+											</span>
+										</div>
+									</div>
+
+								</div>
+								<button class="prev-slide">Previous</button>
+								<button class="next-slide">Next</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="s-contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-4">
+							<img src="img/contact-phone.png" alt="phone">
+							<p>звоните нам +84 985 234 812</p>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<img src="img/contact-mail.png" alt="mail">
+							<p>support@comvanphongvip.vn</p>
+						</div>
+						<div class="col-md-12 col-lg-4">
+							<img src="img/contact-map.png" alt="map">
+							<p>168 Nguyen Xien, Thanh Xuan</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="s-form">
+				<div class="container">
+					<form class="row">
+						<div class="col-12 col-lg-6">
+							<input type="text" placeholder="Ваше Имя">
+							<input type="email" placeholder="Ваш email">
+							<input type="text" placeholder="Тема">
+						</div>
+						<div class="col-12 col-lg-6">
+							<textarea placeholder="Сообщение"></textarea>
+							<a href="#" class="button orange">Написать Сейчас</a>
+						</div>
+					</form>
+				</div>
+			</section>
+
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-6 push-sm-6 social">
+						<a href="#">
+							<img src="img/footer-face.png" alt="facebook">
+						</a>
+						<a href="#">
+							<img src="img/footer-google.png" alt="google">
+						</a>
+						<a href="#">
+							<img src="img/footer-instagram.png" alt="instagram">
+						</a>
+					</div>
+					<div class="col-12  col-sm-6 pull-sm-6">
+						<p>Copyright by Comtruavip 2017</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 
 
