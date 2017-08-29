@@ -15,11 +15,11 @@ AddType image/svg+xml .svg
 	ExpiresDefault "access plus 5 seconds"
 
 	# Cache Images
-	ExpiresByType img/x-icon "access plus 1 month"
-	ExpiresByType img/jpeg "access plus 1 month"
-	ExpiresByType img/png "access plus 1 month"
-	ExpiresByType img/gif "access plus 1 month"
-	ExpiresByType img/svg+xml "access plus 1 month"
+	ExpiresByType imgage/x-icon "access plus 1 month"
+	ExpiresByType imgage/jpeg "access plus 1 month"
+	ExpiresByType imgage/png "access plus 1 month"
+	ExpiresByType imgage/gif "access plus 1 month"
+	ExpiresByType imgage/svg+xml "access plus 1 month"
 
 	# Cache Fonts
 	ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
