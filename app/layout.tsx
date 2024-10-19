@@ -20,11 +20,11 @@ export default function RootLayout({
     <html lang='en'>
       <body
         className={cn(
-          'flex min-h-screen flex-col antialiased',
+          'bg-[var(--color-background)] text-[var(--color-foreground)] antialiased',
           montserrat.className,
         )}>
         <Navbar />
-        <main className='relative mx-auto w-[min(100%,1200px)] p-4 md:py-10'>
+        <main className='container mx-auto px-4 py-8 md:px-8 lg:px-16'>
           {children}
         </main>
       </body>
