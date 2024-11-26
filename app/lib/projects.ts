@@ -17,4 +17,10 @@ export const projects = [
     demo: 'https://imagion.github.io/api-movie-search/',
     code: 'https://github.com/imagion/api-movie-search',
   },
+  {
+    name: 'Weather App',
+    description: 'An app for checking the weather forecast',
+    demo: 'https://imagion.github.io/api-weather-project/',
+    code: 'https://github.com/imagion/api-weather-project',
+  },
 ];
